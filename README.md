@@ -39,6 +39,8 @@ NOTE: This guide will not teach you how to install Oracle Linux. Assuming you al
 
     ```
     wget http://repo.okay.com.mx/centos/8/x86_64/release/okay-release-1-5.el8.noarch.rpm
+    ```
+    ```
     rpm -ivh okay-release-1-5.el8.noarch.rpm
     ```
 
@@ -58,6 +60,8 @@ NOTE: This guide will not teach you how to install Oracle Linux. Assuming you al
 
     ```
     git clone https://github.com/meetecho/janus-gateway.git
+    ```
+    ```
     cd janus-gateway
     ```
 
@@ -71,7 +75,11 @@ NOTE: This guide will not teach you how to install Oracle Linux. Assuming you al
 
     ```
     ./configure --prefix=/opt/janus
+    ```
+    ```
     make
+    ```
+    ```
     make install
     ```
 
