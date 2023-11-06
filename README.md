@@ -107,7 +107,7 @@ You can install your janus gateway as a service in systemctl.
 
 1. Create a Janus Service Unit File:
 
-- Open a terminal and create a new systemd service unit file for Janus. You can use your preferred text editor. For example:
+Open a terminal and create a new systemd service unit file for Janus. You can use your preferred text editor. For example:
 
 ```
 sudo nano /etc/systemd/system/janus.service
